@@ -2,7 +2,7 @@
 name = "resume-screening"
 version = "0.1.0"
 description = "AI-powered resume screening app using Streamlit and LangChain."
-authors = ["Chhitij chhitij92@gamil.com"]
+authors = ["Chhitij <chhitij92@gamil.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -16,6 +16,27 @@ chromadb = "*"
 pypdf = "*"
 docx2txt = "*"
 uvicorn = "*"
+
+# PEP 621 [project] table required by some installers (Streamlit Cloud expects this)
+[project]
+name = "resume-screening"
+version = "0.1.0"
+description = "AI-powered resume screening app using Streamlit and LangChain."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [ { name = "Chhitij", email = "chhitij92@gamil.com" } ]
+dependencies = [
+  "google-generativeai",
+  "langchain",
+  "langchain-google-genai",
+  "langchain-community",
+  "python-dotenv",
+  "streamlit",
+  "chromadb",
+  "pypdf",
+  "docx2txt",
+  "uvicorn",
+]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
