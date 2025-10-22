@@ -19,7 +19,7 @@ uvicorn = "*"
 
 # PEP 621 [project] table required by some installers (Streamlit Cloud expects this)
 [project]
-name = "resume-screening"
+name = "resume_screening"
 version = "0.1.0"
 description = "AI-powered resume screening app using Streamlit and LangChain."
 readme = "README.md"
