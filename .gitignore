@@ -1,0 +1,39 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+.env/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+*.out
+*.err
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled files
+*.pyc
+
+# Test coverage
+.coverage
+*.cover
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg

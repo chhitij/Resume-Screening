@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "resume-screening"
+version = "0.1.0"
+description = "AI-powered resume screening app using Streamlit and LangChain."
+authors = ["Chhitij chhitij92@gamil.com"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+google-generativeai = "*"
+langchain = "*"
+langchain-google-genai = "*"
+langchain-community = "*"
+python-dotenv = "*"
+streamlit = "*"
+chromadb = "*"
+pypdf = "*"
+docx2txt = "*"
+uvicorn = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
