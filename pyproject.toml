@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "resume-screening"
+name = "resume_screening"
 version = "0.1.0"
 description = "AI-powered resume screening app using Streamlit and LangChain."
 authors = ["Chhitij <chhitij92@gamil.com>"]
