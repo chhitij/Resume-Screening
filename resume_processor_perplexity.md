@@ -54,7 +54,7 @@ store_to_vectorstore(docs)
 ## Design Flow
 Below is a visual representation of the workflow:
 
-![Perplexity Workflow](img/perplexity_workflow.png)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8fccf487-1a7c-4630-9bda-3cbca2f88931" />
 
 1. **Load Resumes**: Extracts text from resumes.
 2. **Analyze Resumes**: Sends chunks to Perplexity for scoring and analysis.
