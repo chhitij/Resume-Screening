@@ -1,9 +1,9 @@
-streamlit
-langchain
 google-generativeai
+langchain
 langchain-google-genai
 langchain-community
 python-dotenv
+streamlit
 chromadb
 pypdf
 docx2txt
